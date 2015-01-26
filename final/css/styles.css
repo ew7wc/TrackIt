@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #f3f2ed;
+    font-family: 'Lato', sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+    color: #8A8A8A;
+}
+
+h1, h2, h3 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 300;
+}
+
+p {
+    margin-bottom: 1.2em;
+    line-height: 100%;
+}
+
+strong {
+    font-weight: 700;
+    color: #2A2A2A;
+}
+
+#siteTitle h1 {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: 900;
+    color: #323338;
+}
+
+header
+{
+    margin-bottom: 2.5em;
+}
+
+header h2
+{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2em;
+    color: #323338;
+}
+
+.navbar-header{
+
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2em;
+    color: #323338;
+}
+
+#navBarLinks {
+   text-transform: uppercase;
+   font-weight: 900;
+   font-size: 1em;
+   color: #323338;
+
+}
+
+.intro-header {
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/banner.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    text-transform: uppercase;
+}
+
+.list-inline {
+    padding-top:2%;
+}
+
+.section-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.section-gray {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.section-beige {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f3f2ed
+}
+
+
+footer {
+    padding: 50px 0;
+}
+
+#footerh2 {
+
+	text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2em;
+    color: #323338;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+    text-align: right;
+}
+
+#amtComplete {
+    font-size:12px;
+}
+
+
+/*FORMAT DYNAMIC THINGS*/
+#results {
+    padding-top: 5%;
+}
+
+.btn-google-plus {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #d34332;
+  *background-color: #c53727;
+  background-image: -moz-linear-gradient(top, #dd4b39, #c53727);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dd4b39), to(#c53727));
+  background-image: -webkit-linear-gradient(top, #dd4b39, #c53727);
+  background-image: -o-linear-gradient(top, #dd4b39, #c53727);
+  background-image: linear-gradient(to bottom, #dd4b39, #c53727);
+  background-repeat: repeat-x;
+  border-color: #c53727 #c53727 #85251a;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdd4b39', endColorstr='#ffc53727', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-google-plus:hover,
+.btn-google-plus:focus,
+.btn-google-plus:active,
+.btn-google-plus.active,
+.btn-google-plus.disabled,
+.btn-google-plus[disabled] {
+  color: #ffffff;
+  background-color: #c53727;
+  *background-color: #b03123;
+}
+
+.btn-google-plus:active,
+.btn-google-plus.active {
+  background-color: #9a2b1f \9;
+}
+
+h1.cover-heading {
+  padding-bottom: 3%;
+}
